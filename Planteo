@@ -1,0 +1,24 @@
+**Resumen**
+Un supermercado quiere mejorar la experiencia de sus clientes.
+Actualmente los clientes pesan su propia fruta y verdura.
+Clientes se han quejado de que cuesta encontrar el item correcto en la lista.
+Objetivo: instalar una cámara que reconozca automáticamente el producto.
+**Objetivo**
+Entrenar un modelo que prediga la categoría de una fruta o verdura a partir
+de fotos.
+El modelo va a usarse para automáticamente asignar el precio al item, sin
+chequeo por parte del usuario
+**Restricciones**
+Para mejorar la experiencia de usuario, no va a haber chequeos manuales de la etiqueta.
+Es importante poder calcular que tan seguido el modelo le va a errar
+**A tener en cuenta**
+Si la etiqueta es correcta, la consumidora va a estar satisfecha.
+Si la etiqueta es incorrecta:
+	* Y el producto es más caro: la consumidora se va a quejar de que le estamos robando.
+	+ Y el producto es más barato: la consumidora estará contenta, pero el cliente pierde dinero.
+**Tarea**
+* Entrenar un modelo para clasificar fruta y verdura usando el dataset que vamos a proporcionar.
+	* Usar la tabla de costos (a continuación) para calcular el costo/riesgo para el cliente en función de la accuracy del modelo entrenado.
+	* Sugerir posibles pasos a seguir en función de los resultados encontrados.
+	* No se espera que el modelo sea super preciso, sino que el énfasis va a estar en el end-to-end de la propuesta.
+* La tarea es en grupos de 4 a 5 estudiantes.
